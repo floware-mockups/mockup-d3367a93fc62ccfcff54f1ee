@@ -1,0 +1,196 @@
+{
+  "title": "Gestione manutenzione del verde",
+  "description": "Prototipo per registrare e seguire richieste di manutenzione del verde pubblico, con priorità, stato e quartiere. Dati e organizzazioni interamente inventati.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Dashboard",
+      "description": "Panoramica delle richieste e delle attività di manutenzione.",
+      "metrics": [
+        {
+          "label": "Richieste aperte",
+          "value": "18"
+        },
+        {
+          "label": "Priorità alta",
+          "value": "4"
+        },
+        {
+          "label": "In lavorazione",
+          "value": "7"
+        },
+        {
+          "label": "Completate nel mese",
+          "value": "23"
+        }
+      ],
+      "columns": [
+        "Richiesta",
+        "Quartiere",
+        "Intervento",
+        "Priorità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "R-013",
+          "Vela",
+          "Potatura alberi",
+          "Alta",
+          "In lavorazione"
+        ],
+        [
+          "R-014",
+          "Nubi",
+          "Cura aiuola",
+          "Media",
+          "Aperta"
+        ],
+        [
+          "R-015",
+          "Lumo",
+          "Rimozione ramo",
+          "Alta",
+          "Assegnata"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "richieste",
+      "title": "Richieste",
+      "description": "Consulta e filtra le segnalazioni per quartiere, priorità e stato.",
+      "metrics": [],
+      "columns": [
+        "Codice",
+        "Quartiere",
+        "Area",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ],
+      "rows": [
+        [
+          "R-013",
+          "Vela",
+          "Giardino delle Nebbie",
+          "Potatura alberi",
+          "Alta",
+          "In lavorazione",
+          "12/05/2025"
+        ],
+        [
+          "R-014",
+          "Nubi",
+          "Viale delle Lanterne",
+          "Cura aiuola",
+          "Media",
+          "Aperta",
+          "13/05/2025"
+        ],
+        [
+          "R-015",
+          "Lumo",
+          "Parco dei Sussurri",
+          "Rimozione ramo",
+          "Alta",
+          "Assegnata",
+          "14/05/2025"
+        ],
+        [
+          "R-016",
+          "Vela",
+          "Piazza delle Fronde",
+          "Irrigazione",
+          "Bassa",
+          "Completata",
+          "15/05/2025"
+        ]
+      ],
+      "form": [
+        "Codice",
+        "Quartiere",
+        "Area",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ]
+    },
+    {
+      "id": "nuova-richiesta",
+      "title": "Nuova richiesta",
+      "description": "Registra una richiesta di manutenzione con i dettagli utili per la valutazione e la presa in carico.",
+      "metrics": [],
+      "columns": [
+        "Quartiere",
+        "Area",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ],
+      "rows": [],
+      "form": [
+        "Quartiere",
+        "Area",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ]
+    },
+    {
+      "id": "squadre",
+      "title": "Squadre e attività",
+      "description": "Consulta l'assegnazione delle attività alle squadre inventate e lo stato degli interventi.",
+      "metrics": [
+        {
+          "label": "Squadre attive",
+          "value": "3"
+        },
+        {
+          "label": "Interventi assegnati",
+          "value": "7"
+        }
+      ],
+      "columns": [
+        "Squadra",
+        "Quartiere",
+        "Richiesta",
+        "Intervento",
+        "Priorità",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Fronda Chiara",
+          "Vela",
+          "R-013",
+          "Potatura alberi",
+          "Alta",
+          "In lavorazione"
+        ],
+        [
+          "Ramo Sereno",
+          "Nubi",
+          "R-014",
+          "Cura aiuola",
+          "Media",
+          "Aperta"
+        ],
+        [
+          "Prato Vivo",
+          "Lumo",
+          "R-015",
+          "Rimozione ramo",
+          "Alta",
+          "Assegnata"
+        ]
+      ],
+      "form": []
+    }
+  ]
+}
